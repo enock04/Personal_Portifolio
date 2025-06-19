@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Resume - Your Name</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="nav-brand">NTWARI ENOCK</div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                &#9776;
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section about">
+            <h1>Ntwari Enock</h1>
+            <p>Motivated and detail-oriented Web Developer with hands-on experience in building responsive, user-friendly websites and applications. Proven ability to collaborate with cross-functional teams, optimize web performance, and deliver visually appealing digital solutions. Passionate about using technology to solve real-world problems and continuously learning new tools and frameworks. Seeking to grow in a dynamic environment where I can contribute to impactful projects and advance as a full-stack developer.
+
+</p>
+        </section>
+
+        <section id="skills" class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git)</li>
+                <li>Problem Solving & Debugging</li>
+            </ul>
+        </section>
+
+        <section id="experience" class="section experience">
+            <h2>Work Experience</h2>
+            <article>
+                <h3>Web Developer - SaladMaster</h3>
+                <p class="date">September 8,2023 - August 28,2024</p>
+                <ul>
+                    <li>Developed and maintained responsive websites and internal web applications using HTML, CSS, JavaScript, and modern frameworks (e.g., React).</li>
+                    <li>Collaborated with the marketing team to redesign the company’s product landing pages, resulting in a 25% increase in user engagement.</li>
+                    <li>Integrated third-party APIs and tools to enhance website functionality, including online ordering systems and customer feedback forms.</li>
+                    <li>Optimized website performance, reducing page load times by up to 40% through code refactoring and image compression.</li>
+                    <li>Implemented SEO best practices, improving organic search visibility and increasing traffic to the website.</li>
+                    <li>Monitored site analytics and user behavior to inform design and content updates.</li>
+                    <li>Conducted regular debugging and troubleshooting, ensuring cross-browser and mobile compatibility.</li>
+                    <li>Worked closely with cross-functional teams to meet business goals and project deadlines.</li>
+                </ul>
+            </article>
+            <!-- Add more job experiences as needed -->
+        </section>
+
+        <section id="education" class="section education">
+            <h2>Education</h2>
+            <article>
+                <h3>BSC SOFTWARE ENGINEERING - AFRICAN LEADERSHIP UNIVERSITY</h3>
+                <p class="date">2024-2028</p>
+                <p>ALU Tech Club Member – Actively participated in coding challenges, hackathons, and peer-led tech workshops.</p>
+            </article>
+            <!-- Add more education entries as needed -->
+        </section>
+
+        <section id="projects" class="section projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>GPA-GRADER</h3>
+                <p>This project is a client-side GPA Calculator web application that allows users to input assignment names and grades, dynamically calculates the GPA, and stores data persistently in localStorage. It features a clean and modern UI with the ability to add, remove assignments, and log data to the console. The app is built with HTML, CSS, and JavaScript.</p>
+                <a href="http://127.0.0.1:5502/index.html" target="_blank" rel="noopener" aria-label="View GPA-GRADER project on GitHub" class="project-link">View Project</a>
+            </article>
+           
+            <article>
+                <h3>UbuntuSave</h3>
+                <p>The Community Savings Group Manager is a modular command-line application designed to help users efficiently manage their savings groups. It offers features such as user registration and login, scheduling meetings, managing group contributions and loans, and accessing financial education materials. The application is organized into multiple components for user management, meetings, groups, finances, and education, providing a comprehensive tool for community savings group administration.</p>
+                <a href="https://yourtaskmanager.example.com" target="_blank" rel="noopener" aria-label="View Task Manager App" class="project-link">View Project</a>
+            </article>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact</h2>
+            <p>Phone: <a href="tel:+250793442608">+250793442608</a></p>
+            <p>Email: <a href="mailto:ntwarienock1@gmail.com">ntwarienock1@gmail.com</a></p>
+            <form id="contact-form" novalidate>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required minlength="2" />
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required minlength="10"></textarea>
+                
+                <button type="submit">Send</button>
+                <p id="form-message" class="form-message" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ntwari Enock. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
